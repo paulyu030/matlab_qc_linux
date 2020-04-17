@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsccat locale="en_US" version="1.0">
+   <SystemList>
+      <System Name=".*">
+         <ExclusionList>
+            <Exclusion Rationale="Ignored from Edit Time Checking">
+               <RuleList>
+                  <Rule RegExp="off" SID="off" Type="Block">
+                     <paramValue>Scope1</paramValue>
+                  </Rule>
+               </RuleList>
+               <CheckIDList>
+                  <CheckID>mathworks.slci.UnsupportedBlocks</CheckID>
+               </CheckIDList>
+            </Exclusion>
+            <Exclusion Rationale="Ignored from Edit Time Checking">
+               <RuleList>
+                  <Rule RegExp="off" SID="off" Type="Block">
+                     <paramValue>Timer for Real-Time</paramValue>
+                  </Rule>
+               </RuleList>
+               <CheckIDList>
+                  <CheckID>mathworks.maab.jc_0231</CheckID>
+               </CheckIDList>
+            </Exclusion>
+         </ExclusionList>
+      </System>
+   </SystemList>
+</rsccat>
